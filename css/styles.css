@@ -1,0 +1,31 @@
+h1  {
+text-align: center;
+color: brown;
+}
+h2  {
+    text-align: center;
+    text-emphasis: font = italic;
+    background-color: orange;
+    color: brown;
+}
+body, html {
+    height: 40%;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    max-width: 500px; 
+    margin: 20px auto;
+    padding: 20px ;
+    right: 30%;
+  }
+.container .content {
+    position: absolute;
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff; 
+    width: 500px; 
+    padding: 20px;
+    margin: 20px auto;
+ } 
